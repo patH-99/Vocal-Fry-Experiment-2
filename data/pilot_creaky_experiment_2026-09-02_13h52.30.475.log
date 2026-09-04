@@ -1,0 +1,78 @@
+5.2432 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.2440 	INFO 	Loaded monitor calibration from ['2026_06_30 10:51']
+5.5462 	INFO 	Using renderer 'Apple M4' for graphics
+5.5462 	INFO 	OpenGL version supported by driver is 2..
+5.5975 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x179077970>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x179077910>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x17916b970>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(880.0), np.float64(420.0)], screen=0, size=array([1600, 1200]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.5976 	EXP 	window1: backgroundImage = ''
+5.5976 	EXP 	window1: backgroundFit = 'none'
+5.6235 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6403 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6487 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6571 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6654 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6738 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6818 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6897 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6978 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7146 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7226 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7308 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7389 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7472 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7554 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7635 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7717 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7964 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8046 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8129 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8210 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8292 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8375 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8454 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8458 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.8484 	DEBUG 	Upload of Texture Font fontname complete
+5.8601 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8684 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8686 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.8702 	DEBUG 	Upload of Texture Font fontname complete
+7.2382 	INFO 	keyboard.Keyboard is using ptb backend.
+7.2382 	EXP 	creaky_experiment: status = STARTED
+7.2901 	EXP 	Created welcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='welcomeText', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.2934 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2940 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2945 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2950 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2954 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2958 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.2967 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.2990 	DEBUG 	Upload of Texture Font fontname complete
+7.3023 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3031 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3037 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3039 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3045 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3051 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3055 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3059 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3061 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.3063 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.3079 	DEBUG 	Upload of Texture Font fontname complete
+7.4525 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+7.5611 	DEBUG 	Found speaker device: WH-1000XM5 (3.0)
+8.0564 	INFO 	Created stream for speaker device: WH-1000XM5 (3.0)
+8.2819 	EXP 	introSound: sampleRate = 44100
+8.2820 	EXP 	introSound: channels = None
+8.2963 	DEBUG 	Converted audio clip from mono to stereo
+8.3010 	EXP 	Sound introSound set volume 1.000
+8.3020 	EXP 	Created introductionText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='introductionText', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.3132 	EXP 	Created introHint = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.02), italic=False, languageStyle='LTR', name='introHint', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.3207 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.4811 	DEBUG 	Saving data for creaky_experiment ExperimentHandler
+8.4826 	INFO 	saved data to /Users/pahr0811/Documents/PhD/Year_1/Study_1/final_stage/full_experiment/male_first/data/pilot_creaky_experiment_2026-09-02_13h52.30.475.psydat
+8.4829 	INFO 	saved data to '/Users/pahr0811/Documents/PhD/Year_1/Study_1/final_stage/full_experiment/male_first/data/pilot_creaky_experiment_2026-09-02_13h52.30.475.csv'
+8.4884 	INFO 	Stopping keyboard key buffers.
