@@ -962,7 +962,7 @@ async function experimentInit() {
   thankYouText = new visual.TextStim({
     win: psychoJS.window,
     name: 'thankYouText',
-    text: 'Thank you! The experiment has been completed.\n\nPlease wait 5 seconds while your results are being saved.\n\nThen, click the button below to close the experiment window.',
+    text: 'Thank you! The experiment has been completed.\n\nPlease wait 5 seconds while your results are being saved.\n\nThen, click the button below to be redirected back to Prolific.',
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
@@ -3658,17 +3658,13 @@ function thankYouScreenRoutineBegin(snapshot) {
     thankYouScreenMaxDurationReached = false;
     // update component parameters for each repeat
     psychoJS._saveResults = 0;
-    
     let filename = psychoJS._experiment._experimentName + "_" + psychoJS._experiment._datetime + ".csv";
-    
     let dataObj = psychoJS._experiment._trialsData;
-    
     let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
         return Object.values(it).toString()
     }).join('\n')
     
     console.log('Saving data...');
-    
     fetch("https://pipe.jspsych.org/api/data/", {
       method: "POST",
       headers: {
@@ -3682,8 +3678,13 @@ function thankYouScreenRoutineBegin(snapshot) {
       }),
     }).then(response => response.json()).then(data => {
         console.log(data);
-        quitPsychoJS();
-    })
+        // Redirect participant back to Prolific to confirm completion
+        window.location.href = "https://app.prolific.com/submissions/complete?cc=CDE5QMSI";
+    }).catch(error => {
+        console.error('Error saving data:', error);
+        // Still redirect so the participant isn't stranded
+        window.location.href = "https://app.prolific.com/submissions/complete?cc=CDE5QMSI";
+      });
             
     
     
